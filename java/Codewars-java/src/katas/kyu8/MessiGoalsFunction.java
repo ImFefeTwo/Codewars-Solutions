@@ -7,12 +7,12 @@ public class MessiGoalsFunction {
     // Note: the input will always be valid.
 
     public static int goals(int laLigaGoals, int copaDelReyGoals, int championsLeagueGoals) {
-        int resultado = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-        return resultado;
+        int sum = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+        return sum;
     }
 
     public static void main(String[] args) {
-        int total = goals(0, 0, 0);
-        System.out.println("El total de goles es: " + total);
+        int total = goals(10, 45, 20);
+        System.out.println("The total of goals is: " + total);
     }
 }
