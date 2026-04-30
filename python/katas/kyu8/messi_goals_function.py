@@ -11,3 +11,11 @@ Note: the input will always be valid. """
 def goals(laLiga, copaDelRey, championsLeague):
     total = laLiga + copaDelRey + championsLeague
     return total
+
+"""  
+============================================================================
+ NOTES
+ We can use only return to complete the exercise: 
+ return laLiga + copaDelRey + championsLeague
+ ============================================================================ 
+ """
