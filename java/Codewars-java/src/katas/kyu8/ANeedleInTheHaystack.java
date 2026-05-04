@@ -25,3 +25,8 @@ public class ANeedleInTheHaystack {
         return "found the needle at position " + positionOfNeedle;
     }
 }
+
+// ============================================================================
+// NOTES
+// If we use "needle".equals(haystack[i]), instanceof is redundant.
+// ============================================================================
