@@ -28,3 +28,12 @@ public class TakeTheFirstNElement {
 }
 
 
+// ============================================================================
+// NOTES
+// If we use the Array package:
+// static int[] take(int[] arr, int n) {
+//    return n > arr.length ? arr : Arrays.copyOf(arr, n);
+// }
+// ============================================================================
+
+
