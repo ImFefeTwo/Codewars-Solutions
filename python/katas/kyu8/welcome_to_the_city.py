@@ -17,3 +17,13 @@ def say_hello(name, city, state):
     return f"Hello, {' '.join(name)}! Welcome to {city}, {state}!"
 
 print(say_hello(myName, city, state))
+
+"""  
+============================================================================
+ NOTES
+ Another way to concat: 
+ name = "Ana"
+ result = "Hola, {}".format(nombre) 
+ "Hola, Ana"
+ ============================================================================ 
+ """
