@@ -8,8 +8,8 @@ Complete the function to return his total number of goals in all three leagues.
 
 Note: the input will always be valid. """
 
-def goals(laLiga, copaDelRey, championsLeague):
-    total = laLiga + copaDelRey + championsLeague
+def goals(la_liga, copa_del_rey, champions_league):
+    total = la_liga + copa_del_rey + champions_league
     return total
 
 """  

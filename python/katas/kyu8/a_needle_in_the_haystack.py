@@ -11,7 +11,7 @@ Example(Input --> Output)
 ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 """
 
-myArray = ['3', '123124234', None, 'needle', 'world', 'hay', 2, '3', True, False]
+my_array = ['3', '123124234', None, 'needle', 'world', 'hay', 2, '3', True, False]
 
 def find_needle(haystack):
     if "needle" in haystack:

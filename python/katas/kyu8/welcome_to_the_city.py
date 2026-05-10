@@ -9,7 +9,7 @@ This example will return the string Hello, John Smith! Welcome to Phoenix, Arizo
 
 """
 
-myName = ["Federico", "Berrueta"]
+my_name = ["Federico", "Berrueta"]
 city = "Phoenix"
 state = "Arizona"
 
